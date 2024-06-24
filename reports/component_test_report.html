@@ -1,0 +1,181 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+    font-family: "Helvetica", sans-serif;
+    margin: 16px 64px
+}
+
+h4 {
+    padding: 4px 8px;
+}
+
+
+.coverage {
+    font-size: small;
+    font-weight: normal;
+}
+
+a {
+    padding: 8px 8px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border: thin #eeeeee solid;
+}
+
+
+.passed a {
+    background-color: #dfd;
+}
+
+.skipped a {
+    background-color: #eee;
+}
+
+.failed a {
+    background-color: #fdd;
+}
+
+.badge {
+    background-color: #888;
+    color: white;
+    border-radius: 4px;
+    padding: 2px 8px;
+    float: right;
+}
+
+.passed .badge {
+    background-color: #5c5;
+}
+
+.skipped .badge {
+}
+
+.failed .badge {
+    background-color: #d66;
+}
+
+.expando {
+    padding: 8px;
+    display: none;
+}
+
+.content {
+    padding: 16px 0;
+    border-bottom: thin #eeeeee solid;
+    color: #444;
+    white-space: pre;
+}
+
+.duration {
+    font-size: x-small;
+}
+
+div:target .expando {
+    display: block
+}
+</style>
+</head>
+<body>
+<p>2 of 4 tests failed</p>
+<h4>
+fanatics.com/sit
+</h4>
+<div class='failed' id='fanatics.com/sit.fanatics.com/sit.TestFeatures/Eat_2_out_of_12#01'>
+<a href='#fanatics.com/sit.fanatics.com/sit.TestFeatures/Eat_2_out_of_12#01'>TestFeatures/Eat_2_out_of_12#01 <span class='badge'>Fail</span></a>
+<div class='expando'>
+<div class='content'>=== RUN   TestFeatures/Eat_2_out_of_12#01
+
+  �[1;37mScenario:�[0m Eat 2 out of 12          �[1;30m# features/sit-test.feature:16�[0m
+    �[32mGiven�[0m �[32mthere are 12 godogs�[0m        �[1;30m# sit_test.go:16 -> fanatics.com/sit.thereAreGodogs�[0m
+    �[32mWhen�[0m �[32mI eat 10�[0m                    �[1;30m# sit_test.go:20 -> fanatics.com/sit.iEat�[0m
+    �[31mThen�[0m �[31mthere should be 0 remaining�[0m �[1;30m# sit_test.go:35 -> fanatics.com/sit.thereShouldBeRemaining�[0m
+    �[1;31m
+	Error Trace:	/Users/vlellapalli/Code/sit-test/sit_test.go:72
+	            				/Users/vlellapalli/Code/sit-test/sit_test.go:41
+	            				/usr/local/go/src/reflect/value.go:596
+	            				/usr/local/go/src/reflect/value.go:380
+	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/internal/models/stepdef.go:182
+	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/suite.go:209
+	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/suite.go:474
+	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/suite.go:525
+	Error:      	Not equal: 
+	            	expected: 2
+	            	actual  : 0
+	Messages:   	Expected 0 godogs to be remaining, but there is 2
+�[0m
+    suite.go:527: 
+        	Error Trace:	/Users/vlellapalli/Code/sit-test/sit_test.go:72
+        	            				/Users/vlellapalli/Code/sit-test/sit_test.go:41
+        	            				/usr/local/go/src/reflect/value.go:596
+        	            				/usr/local/go/src/reflect/value.go:380
+        	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/internal/models/stepdef.go:182
+        	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/suite.go:209
+        	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/suite.go:474
+        	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/suite.go:525
+        	Error:      	Not equal: 
+        	            	expected: 2
+        	            	actual  : 0
+        	Messages:   	Expected 0 godogs to be remaining, but there is 2
+--- FAIL: TestFeatures/Eat_2_out_of_12#01 (0.00s)
+</div>
+<p class='duration' title='Test duration'>0s</p>
+</div>
+</div>
+<div class='failed' id='fanatics.com/sit.fanatics.com/sit.TestFeatures'>
+<a href='#fanatics.com/sit.fanatics.com/sit.TestFeatures'>TestFeatures <span class='badge'>Fail</span></a>
+<div class='expando'>
+<div class='content'>=== RUN   TestFeatures
+�[1;37mFeature:�[0m eat godogs
+  In order to be happy
+  As a hungry gopher
+  I need to be able to eat godogs
+
+--- �[31mFailed steps:�[0m
+
+  �[31mScenario: Eat 2 out of 12�[0m �[1;30m# features/sit-test.feature:16�[0m
+    �[31mThen there should be 0 remaining�[0m �[1;30m# features/sit-test.feature:19�[0m
+      �[31mError: �[0m�[1;31m
+	Error Trace:	/Users/vlellapalli/Code/sit-test/sit_test.go:72
+	            				/Users/vlellapalli/Code/sit-test/sit_test.go:41
+	            				/usr/local/go/src/reflect/value.go:596
+	            				/usr/local/go/src/reflect/value.go:380
+	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/internal/models/stepdef.go:182
+	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/suite.go:209
+	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/suite.go:474
+	            				/Users/vlellapalli/go/pkg/mod/github.com/cucumber/godog@v0.13.0/suite.go:525
+	Error:      	Not equal: 
+	            	expected: 2
+	            	actual  : 0
+	Messages:   	Expected 0 godogs to be remaining, but there is 2
+�[0m
+
+
+3 scenarios (�[32m2 passed�[0m, �[31m1 failed�[0m)
+9 steps (�[32m8 passed�[0m, �[31m1 failed�[0m)
+925.542µs
+    sit_test.go:58: non-zero status returned, failed to run feature tests
+--- FAIL: TestFeatures (0.00s)
+</div>
+<p class='duration' title='Test duration'>0s</p>
+</div>
+</div>
+<h4>
+fanatics.com/sit
+</h4>
+<div class='passed' id='fanatics.com/sit.fanatics.com/sit.TestFeatures/Eat_3_out_of_12'>
+<a href='#fanatics.com/sit.fanatics.com/sit.TestFeatures/Eat_3_out_of_12'>TestFeatures/Eat_3_out_of_12 <span class='badge'>Pass</span></a>
+<div class='expando'>
+<p class='duration' title='Test duration'>0s</p>
+</div>
+</div>
+<div class='passed' id='fanatics.com/sit.fanatics.com/sit.TestFeatures/Eat_2_out_of_12'>
+<a href='#fanatics.com/sit.fanatics.com/sit.TestFeatures/Eat_2_out_of_12'>TestFeatures/Eat_2_out_of_12 <span class='badge'>Pass</span></a>
+<div class='expando'>
+<p class='duration' title='Test duration'>0s</p>
+</div>
+</div>
+</body>
+</html>

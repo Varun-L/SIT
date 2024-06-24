@@ -1,0 +1,43 @@
+{"Time":"2024-01-02T20:19:48.288467+05:30","Action":"start","Package":"fanatics.com/sit"}
+{"Time":"2024-01-02T20:19:48.288529+05:30","Action":"run","Package":"fanatics.com/sit","Test":"TestFeatures"}
+{"Time":"2024-01-02T20:19:48.288532+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"=== RUN   TestFeatures\n"}
+{"Time":"2024-01-02T20:19:48.28854+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"\u001b[1;37mFeature:\u001b[0m eat godogs\n"}
+{"Time":"2024-01-02T20:19:48.288543+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"  In order to be happy\n"}
+{"Time":"2024-01-02T20:19:48.288544+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"  As a hungry gopher\n"}
+{"Time":"2024-01-02T20:19:48.288546+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"  I need to be able to eat godogs\n"}
+{"Time":"2024-01-02T20:19:48.288548+05:30","Action":"run","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_3_out_of_12"}
+{"Time":"2024-01-02T20:19:48.28855+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_3_out_of_12","Output":"=== RUN   TestFeatures/Eat_3_out_of_12\n"}
+{"Time":"2024-01-02T20:19:48.288554+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_3_out_of_12","Output":"\n"}
+{"Time":"2024-01-02T20:19:48.288556+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_3_out_of_12","Output":"  \u001b[1;37mScenario:\u001b[0m Eat 3 out of 12          \u001b[1;30m# features/sit-test.feature:6\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.288558+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_3_out_of_12","Output":"    \u001b[32mGiven\u001b[0m \u001b[32mthere are 12 godogs\u001b[0m        \u001b[1;30m# sit_test.go:16 -\u003e fanatics.com/sit.thereAreGodogs\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.288565+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_3_out_of_12","Output":"    \u001b[32mWhen\u001b[0m \u001b[32mI eat 3\u001b[0m                     \u001b[1;30m# sit_test.go:20 -\u003e fanatics.com/sit.iEat\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.28858+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_3_out_of_12","Output":"    \u001b[32mThen\u001b[0m \u001b[32mthere should be 9 remaining\u001b[0m \u001b[1;30m# sit_test.go:35 -\u003e fanatics.com/sit.thereShouldBeRemaining\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.288583+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_3_out_of_12","Output":"--- PASS: TestFeatures/Eat_3_out_of_12 (0.00s)\n"}
+{"Time":"2024-01-02T20:19:48.288585+05:30","Action":"pass","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_3_out_of_12","Elapsed":0}
+{"Time":"2024-01-02T20:19:48.288591+05:30","Action":"run","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12"}
+{"Time":"2024-01-02T20:19:48.288593+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12","Output":"=== RUN   TestFeatures/Eat_2_out_of_12\n"}
+{"Time":"2024-01-02T20:19:48.288594+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12","Output":"\n"}
+{"Time":"2024-01-02T20:19:48.288596+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12","Output":"  \u001b[1;37mScenario:\u001b[0m Eat 2 out of 12           \u001b[1;30m# features/sit-test.feature:11\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.288597+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12","Output":"    \u001b[32mGiven\u001b[0m \u001b[32mthere are 12 godogs\u001b[0m         \u001b[1;30m# sit_test.go:16 -\u003e fanatics.com/sit.thereAreGodogs\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.2886+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12","Output":"    \u001b[32mWhen\u001b[0m \u001b[32mI eat 2\u001b[0m                      \u001b[1;30m# sit_test.go:20 -\u003e fanatics.com/sit.iEat\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.288601+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12","Output":"    \u001b[32mThen\u001b[0m \u001b[32mthere should be 10 remaining\u001b[0m \u001b[1;30m# sit_test.go:35 -\u003e fanatics.com/sit.thereShouldBeRemaining\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.288603+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12","Output":"--- PASS: TestFeatures/Eat_2_out_of_12 (0.00s)\n"}
+{"Time":"2024-01-02T20:19:48.288608+05:30","Action":"pass","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12","Elapsed":0}
+{"Time":"2024-01-02T20:19:48.288609+05:30","Action":"run","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12#01"}
+{"Time":"2024-01-02T20:19:48.288611+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12#01","Output":"=== RUN   TestFeatures/Eat_2_out_of_12#01\n"}
+{"Time":"2024-01-02T20:19:48.288612+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12#01","Output":"\n"}
+{"Time":"2024-01-02T20:19:48.288614+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12#01","Output":"  \u001b[1;37mScenario:\u001b[0m Eat 2 out of 12          \u001b[1;30m# features/sit-test.feature:16\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.288615+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12#01","Output":"    \u001b[32mGiven\u001b[0m \u001b[32mthere are 12 godogs\u001b[0m        \u001b[1;30m# sit_test.go:16 -\u003e fanatics.com/sit.thereAreGodogs\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.288618+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12#01","Output":"    \u001b[32mWhen\u001b[0m \u001b[32mI eat 12\u001b[0m                    \u001b[1;30m# sit_test.go:20 -\u003e fanatics.com/sit.iEat\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.28862+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12#01","Output":"    \u001b[32mThen\u001b[0m \u001b[32mthere should be 0 remaining\u001b[0m \u001b[1;30m# sit_test.go:35 -\u003e fanatics.com/sit.thereShouldBeRemaining\u001b[0m\n"}
+{"Time":"2024-01-02T20:19:48.288622+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12#01","Output":"--- PASS: TestFeatures/Eat_2_out_of_12#01 (0.00s)\n"}
+{"Time":"2024-01-02T20:19:48.288628+05:30","Action":"pass","Package":"fanatics.com/sit","Test":"TestFeatures/Eat_2_out_of_12#01","Elapsed":0}
+{"Time":"2024-01-02T20:19:48.288629+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"\n"}
+{"Time":"2024-01-02T20:19:48.288631+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"3 scenarios (\u001b[32m3 passed\u001b[0m)\n"}
+{"Time":"2024-01-02T20:19:48.288632+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"9 steps (\u001b[32m9 passed\u001b[0m)\n"}
+{"Time":"2024-01-02T20:19:48.288634+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"815.417µs\n"}
+{"Time":"2024-01-02T20:19:48.288637+05:30","Action":"output","Package":"fanatics.com/sit","Test":"TestFeatures","Output":"--- PASS: TestFeatures (0.00s)\n"}
+{"Time":"2024-01-02T20:19:48.288638+05:30","Action":"pass","Package":"fanatics.com/sit","Test":"TestFeatures","Elapsed":0}
+{"Time":"2024-01-02T20:19:48.28864+05:30","Action":"output","Package":"fanatics.com/sit","Output":"PASS\n"}
+{"Time":"2024-01-02T20:19:48.288644+05:30","Action":"output","Package":"fanatics.com/sit","Output":"ok  \tfanatics.com/sit\t(cached)\n"}
+{"Time":"2024-01-02T20:19:48.288647+05:30","Action":"pass","Package":"fanatics.com/sit","Elapsed":0}
